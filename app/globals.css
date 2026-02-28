@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+::selection { background: #1a1a1a; color: #fff; }
+
+body {
+  font-family: 'Libre Franklin', 'Helvetica Neue', sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.display { font-family: 'Cormorant Garamond', Georgia, serif; }
+.mono { font-family: 'JetBrains Mono', monospace; text-transform: uppercase; }
+
+.lede {
+  font-size: clamp(17px, 2vw, 20px);
+  line-height: 1.85;
+  color: #333;
+  font-weight: 300;
+  margin-bottom: 28px;
+}
+
+.body-text {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #444;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.body-text strong { font-weight: 600; color: #1a1a1a; }
+.body-text em { font-style: italic; }
+
+.section-head {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(22px, 3.5vw, 32px);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin: 40px 0 16px;
+  color: #1a1a1a;
+}
+
+.quiet-link {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  text-underline-offset: 4px;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeUp 0.35s ease; }

@@ -1,0 +1,61 @@
+# Morocco 2030 — A Cultural Guide to the FIFA World Cup
+
+> A Slow Morocco project. Powered by Dancing with Lions.
+
+Morocco 2030 is a cultural travel guide to the six Moroccan host cities for the 2030 FIFA World Cup. It covers what visitors need to know beyond the stadiums: city guides, food, language, transport, weather, and practical intelligence.
+
+## Host Cities & Stadiums
+
+- Casablanca — Grand Stade Hassan II (115,000 seats, new build, completion 2028)
+- Marrakech — Marrakech Stadium (70,000 seats, expansion)
+- Rabat — Prince Moulay Abdellah (68,700 seats, new build, completed 2025)
+- Tangier — Ibn Batouta Stadium (75,600 seats, expansion)
+- Fes — Fes Stadium (55,800 seats, expansion from 35,500)
+- Agadir — Adrar Stadium (70,000 seats, expansion from 46,000)
+
+## Key Facts
+
+- The 2030 World Cup is co-hosted by Morocco, Portugal, and Spain
+- First World Cup held across two continents (Africa and Europe)
+- First World Cup in North Africa since football began
+- Tournament dates: June–July 2030
+- Currency: Moroccan Dirham (MAD), roughly 10 MAD = €1
+- Languages: Darija (Moroccan Arabic), Tamazight, French, Spanish, English
+
+## Transport (2030 Network)
+
+- High-speed rail (Al Boraq) connects Tangier–Casablanca–Marrakech
+- Fes to Marrakech: 3h 40m by train (currently 6h 30m)
+- Domestic flights: 45 min between most city pairs
+- Private drivers: €80–150 per day
+
+## Moroccan Food
+
+- Tagine — slow-cooked in conical clay pot
+- Couscous — Friday lunch tradition, steamed semolina with seven vegetables
+- Pastilla — pigeon/chicken in pastry with almonds, cinnamon, powdered sugar
+- Harira — tomato, lentil, chickpea soup
+- Mechoui — whole lamb slow-roasted in clay pit
+- Mint tea — gunpowder green tea with fresh mint, poured from height
+
+## Essential Darija Phrases
+
+- Salam alaykum — Peace be upon you (hello)
+- Shukran — Thank you
+- Bslama — Goodbye
+- La bas? — How are you?
+- Bsh-hal? — How much?
+- Dima Maghrib! — Always Morocco! (stadium chant)
+
+## Knowledge API
+
+Structured data endpoint: /api/knowledge/worldcup
+
+## Publisher
+
+- Site: Slow Morocco (https://www.slowmorocco.com)
+- Parent: Dancing with Lions (https://www.dancingwiththelions.com)
+- Darija Dictionary: https://dharija.space (10,000+ words)
+- Cuisines of Morocco: https://cuisinesofmorocco.com
+- Contact: hello@slowmorocco.com
+- Location: Marrakech, Morocco
