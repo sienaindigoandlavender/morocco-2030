@@ -26,19 +26,25 @@ export default function CityHero({ id, name, tagline, lat, lng }: Props) {
     <div style={{ position: 'relative', width: '100%', height: '55vh', minHeight: 380, overflow: 'hidden' }}>
       <img src={cityImages[id]} alt={name}
         style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
-      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(0deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.05) 50%)' }} />
-      <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '0 clamp(20px,5vw,64px) 36px' }}>
-        <p className="mono" style={{ fontSize: 10, letterSpacing: '.18em', color: 'rgba(255,255,255,.35)', marginBottom: 8 }}>
+      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(0deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,.3) 40%, rgba(0,0,0,.05) 70%)' }} />
+      <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '0 clamp(20px,5vw,64px) 40px' }}>
+        <p className="mono" style={{ fontSize: 10, letterSpacing: '.18em', color: 'rgba(255,255,255,.6)', marginBottom: 10, textShadow: '0 1px 3px rgba(0,0,0,.5)' }}>
           Morocco 2030 · Host City Guide
         </p>
-        <h1 className="display" style={{ fontSize: 'clamp(56px,12vw,110px)', lineHeight: .85, fontWeight: 300, color: '#fff', letterSpacing: '-0.04em' }}>
+        <h1 className="display" style={{
+          fontSize: 'clamp(56px,12vw,110px)', lineHeight: .85, fontWeight: 500, color: '#fff',
+          letterSpacing: '-0.04em', textShadow: '0 2px 12px rgba(0,0,0,.4)',
+        }}>
           {name}
         </h1>
-        <div style={{ display: 'flex', gap: 20, alignItems: 'baseline', marginTop: 8 }}>
-          <p className="display" style={{ fontSize: 'clamp(16px,2.5vw,22px)', fontStyle: 'italic', fontWeight: 300, color: 'rgba(255,255,255,.55)' }}>
+        <div style={{ display: 'flex', gap: 20, alignItems: 'baseline', marginTop: 10 }}>
+          <p style={{
+            fontSize: 'clamp(15px,2.5vw,20px)', fontWeight: 400, color: 'rgba(255,255,255,.85)',
+            textShadow: '0 1px 4px rgba(0,0,0,.5)',
+          }}>
             {tagline}
           </p>
-          {w && <span style={{ fontSize: 13, color: 'rgba(255,255,255,.4)' }}>{w.icon} {w.t}°</span>}
+          {w && <span style={{ fontSize: 13, color: 'rgba(255,255,255,.6)', textShadow: '0 1px 3px rgba(0,0,0,.4)' }}>{w.icon} {w.t}°</span>}
         </div>
       </div>
     </div>

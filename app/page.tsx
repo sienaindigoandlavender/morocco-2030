@@ -56,14 +56,20 @@ export default function HomePage() {
             height: 'clamp(240px,35vw,360px)', overflow: 'hidden', textDecoration: 'none',
           }}>
             <img src={cityImages[city.id]} alt={city.name}
-              style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: .6, transition: 'opacity .3s, transform .4s' }}
+              style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: .5, transition: 'opacity .3s, transform .4s' }}
             />
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(0deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.05) 50%)' }} />
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(0deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,.35) 40%, rgba(0,0,0,.1) 70%)' }} />
             <div style={{ position: 'absolute', bottom: 0, left: 0, padding: 'clamp(20px,3vw,32px)', zIndex: 2 }}>
-              <h3 className="display" style={{ fontSize: 'clamp(32px,5vw,48px)', fontWeight: 300, color: '#fff', lineHeight: .9, letterSpacing: '-0.03em' }}>
+              <h3 className="display" style={{
+                fontSize: 'clamp(36px,5.5vw,52px)', fontWeight: 500, color: '#fff', lineHeight: .9,
+                letterSpacing: '-0.03em', textShadow: '0 2px 8px rgba(0,0,0,.4)',
+              }}>
                 {city.name}
               </h3>
-              <p className="display" style={{ fontSize: 15, fontStyle: 'italic', color: 'rgba(255,255,255,.55)', fontWeight: 300, marginTop: 6, maxWidth: 280 }}>
+              <p style={{
+                fontSize: 14, color: 'rgba(255,255,255,.85)', fontWeight: 400, marginTop: 8,
+                maxWidth: 300, lineHeight: 1.4, textShadow: '0 1px 4px rgba(0,0,0,.5)',
+              }}>
                 {city.tagline}
               </p>
             </div>
