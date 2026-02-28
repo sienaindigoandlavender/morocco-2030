@@ -4,12 +4,12 @@ import Footer from '@/components/Footer';
 import { cities } from '@/lib/cities';
 
 const cityImages: Record<string, string> = {
-  marrakech: 'https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=1200&q=80',
-  casablanca: 'https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=1200&q=80',
-  rabat: 'https://images.unsplash.com/photo-1570097769755-0b727edfa3f0?w=1200&q=80',
-  tangier: 'https://images.unsplash.com/photo-1553899017-fbc62758e7b7?w=1200&q=80',
-  fes: 'https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?w=1200&q=80',
-  agadir: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=1200&q=80',
+  marrakech: 'https://res.cloudinary.com/drstfu5yr/image/upload/v1772311844/Marrakech_medina_rooftops_at_dusk_qdoyej.png',
+  casablanca: 'https://res.cloudinary.com/drstfu5yr/image/upload/v1772312493/Hassan_II_Mosque_Casablanca_f2wasz.png',
+  rabat: 'https://res.cloudinary.com/drstfu5yr/image/upload/v1772314226/Kasbah_of_the_Udayas_Rabat_y8rd2i.png',
+  tangier: 'https://res.cloudinary.com/drstfu5yr/image/upload/v1772314478/View_from_Caf_Hafa_Tangier_huuuyh.png',
+  fes: 'https://res.cloudinary.com/drstfu5yr/image/upload/v1772314702/Fes_el-Bali_medina_lx6wib.png',
+  agadir: 'https://res.cloudinary.com/drstfu5yr/image/upload/v1772315001/Agadir_beach_at_dusk_zn4kj4.png',
 };
 
 export default function HomePage() {
